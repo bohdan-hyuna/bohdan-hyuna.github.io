@@ -1,0 +1,101 @@
+/*!
+ * MIT Licence
+ * ShahinSorkh <sorkh.shahin@hotmail.com>  2017
+ */
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+// Core [Should not be removed]
+@import "../../node_modules/animate.sass/scss/core";
+
+// Bounce
+// @import "../../node_modules/animate.sass/scss/bounce/bounce";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceIn";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceInDown";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceInLeft";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceInRight";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceInUp";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceOut";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceOutDown";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceOutLeft";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceOutRight";
+// @import "../../node_modules/animate.sass/scss/bounce/bounceOutUp";
+
+// Fade
+@import "../../node_modules/animate.sass/scss/fade/fadeIn";
+@import "../../node_modules/animate.sass/scss/fade/fadeInDown";
+@import "../../node_modules/animate.sass/scss/fade/fadeInDownBig";
+@import "../../node_modules/animate.sass/scss/fade/fadeInLeft";
+@import "../../node_modules/animate.sass/scss/fade/fadeInLeftBig";
+@import "../../node_modules/animate.sass/scss/fade/fadeInRight";
+@import "../../node_modules/animate.sass/scss/fade/fadeInRightBig";
+@import "../../node_modules/animate.sass/scss/fade/fadeInUp";
+@import "../../node_modules/animate.sass/scss/fade/fadeInUpBig";
+@import "../../node_modules/animate.sass/scss/fade/fadeOut";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutDown";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutDownBig";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutLeft";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutLeftBig";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutRight";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutRightBig";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutUp";
+@import "../../node_modules/animate.sass/scss/fade/fadeOutUpBig";
+
+// Flip
+// @import "../../node_modules/animate.sass/scss/flip/flip";
+// @import "../../node_modules/animate.sass/scss/flip/flipInX";
+// @import "../../node_modules/animate.sass/scss/flip/flipInY";
+// @import "../../node_modules/animate.sass/scss/flip/flipOutX";
+// @import "../../node_modules/animate.sass/scss/flip/flipOutY";
+
+// Light Speed
+// @import "../../node_modules/animate.sass/scss/lightSpeed/lightSpeedIn";
+// @import "../../node_modules/animate.sass/scss/lightSpeed/lightSpeedOut";
+
+// Roll
+// @import "../../node_modules/animate.sass/scss/roll/rollIn";
+// @import "../../node_modules/animate.sass/scss/roll/rollOut";
+
+// Rotate
+// @import "../../node_modules/animate.sass/scss/rotate/rotateIn";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateInDownLeft";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateInDownRight";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateInUpLeft";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateInUpRight";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateOut";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateOutDownLeft";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateOutDownRight";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateOutUpLeft";
+// @import "../../node_modules/animate.sass/scss/rotate/rotateOutUpRight";
+
+// Slide
+// @import "../../node_modules/animate.sass/scss/slide/slideInDown";
+// @import "../../node_modules/animate.sass/scss/slide/slideInLeft";
+// @import "../../node_modules/animate.sass/scss/slide/slideInRight";
+// @import "../../node_modules/animate.sass/scss/slide/slideInUp";
+// @import "../../node_modules/animate.sass/scss/slide/slideOutDown";
+// @import "../../node_modules/animate.sass/scss/slide/slideOutLeft";
+// @import "../../node_modules/animate.sass/scss/slide/slideOutRight";
+// @import "../../node_modules/animate.sass/scss/slide/slideOutUp";
+
+// Zoom
+// @import "../../node_modules/animate.sass/scss/zoom/zoomIn";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomInDown";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomInLeft";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomInRIght";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomInUp";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomOut";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomOutDown";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomOutLeft";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomOutRight";
+// @import "../../node_modules/animate.sass/scss/zoom/zoomOutUp";
+
+// Other
+@import "../../node_modules/animate.sass/scss/flash";
+@import "../../node_modules/animate.sass/scss/hinge";
+@import "../../node_modules/animate.sass/scss/jello";
+@import "../../node_modules/animate.sass/scss/pulse";
+@import "../../node_modules/animate.sass/scss/rubberBand";
+@import "../../node_modules/animate.sass/scss/shake";
+@import "../../node_modules/animate.sass/scss/swing";
+@import "../../node_modules/animate.sass/scss/tada";
+@import "../../node_modules/animate.sass/scss/wobble";

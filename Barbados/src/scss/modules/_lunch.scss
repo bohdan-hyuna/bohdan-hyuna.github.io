@@ -1,0 +1,17 @@
+.lunch {
+  background: url(../img/lunch-bg.png) no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+
+  @include breakpoint(medium down) {
+    background: none;
+  }
+  
+  &__title {
+    background: url(../img/title-lunch.png) no-repeat;
+    margin-bottom: 60px;
+    @include breakpoint(medium down) {
+      background-position: center;
+    }
+  }
+}

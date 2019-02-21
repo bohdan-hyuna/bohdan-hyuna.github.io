@@ -1,0 +1,10 @@
+.banks {
+  &__title {
+    background: url(../img/title-banks.png) no-repeat;
+    margin-bottom: 60px;
+   
+    @include breakpoint(medium down) {
+      background-position: center;
+    }
+  }
+}

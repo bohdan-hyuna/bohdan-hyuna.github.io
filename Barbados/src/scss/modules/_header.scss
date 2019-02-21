@@ -1,0 +1,164 @@
+.header {
+	// background-image: url(../img/section-img.jpg);
+	margin-top: 6.125rem;
+	position: relative;
+	@include breakpoint(medium down) {
+	margin-top: 2.125rem;
+	
+  }
+	
+	.p-fixed {
+		position: fixed;
+		z-index: 2;
+	}
+
+	.header-menu {
+		padding: 25px 55px;
+		background: $menu-color;
+		display: none;
+		border-radius: 10px;
+		position: relative;
+		top: 6px;
+		left: 6px;
+		font-size: 0.875em;
+
+		&__item {
+			margin-bottom: 15px;
+			&:nth-last-child(1) {
+				margin: 0;
+			}
+		}
+
+		&__link {
+			color: $menu-link;
+			text-transform: uppercase;
+			font-weight: 700;
+			&-gray {
+				color: $menu-text;
+				font-weight: 600;
+			}
+			&:hover {
+				color: $hover;
+			}
+		}
+
+		@include breakpoint(medium down) {
+			padding: 20px 15px 20px 45px;
+		}
+
+		&__items-left {
+			margin-right: 45px;
+			@include breakpoint(medium down) {
+				margin-right: 15px;
+			}
+		}
+
+		&.open {
+			display: flex;
+		}
+	}
+
+	.section-content {
+		padding: 5.9rem 0 5.9rem 0;
+
+		@include breakpoint(medium down) {
+			padding: 4.5rem 0 2rem 0;
+  	}
+	}
+}
+
+.emergency::-webkit-scrollbar { display: none; }
+
+.emergency {
+	-ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
+	padding: 30px 40px;
+	height: 85%;
+	position: fixed;
+	z-index: 10;
+	right: 0;
+	top: 0;
+	background: $menu-color;
+	display: none;
+	overflow: auto;
+	border-radius: 0 0 0 80px;
+	
+	@include breakpoint(823px down) {
+		height: 100%;
+		width: 100%;
+		border-radius: 0;
+	}
+
+	@include breakpoint(small only) {
+		height: 100%;
+		width: 100%;
+		border-radius: 0;
+		padding: 20px 15px;
+	}
+
+	&.open {
+	display: block;
+	}
+
+	&__list {
+		font-size: 0.875em;
+		overflow: auto;
+	}
+
+	&__title {
+		font-size: 2.188em;
+		text-transform: uppercase;
+		margin: 0 0 20px 0;
+		width: 70%;
+		color: $white-color;
+		@include breakpoint(medium down) {
+			font-size: 1.3em;
+  	}
+	}
+
+	&__list-item {
+		display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+	}
+
+	&__contact {
+		font-weight: 600;
+		color: $menu-link;
+		margin-right: 20px;
+
+		&-gray {
+			color: $menu-text;
+			font-weight: 600; 
+		}
+	}
+
+	&__number {
+		color: $red-color;
+		font-weight: 700;
+	}
+	
+	.closebtn{
+		position: absolute;
+		top: .2rem;
+		right: 1rem;
+		z-index: 1111;
+		color: #fff;
+		font-size: 3em; 
+		display: none;
+		@include breakpoint(823px down) {
+			display: block;
+  	}
+	}
+}
+
+.emergency-icon {
+	position: fixed;
+	right: 1rem;
+	bottom: 1rem;
+	width: 60px;
+	height: 60px;
+	background: url(../img/phone.png);
+	cursor: pointer;
+	z-index: 9;
+}

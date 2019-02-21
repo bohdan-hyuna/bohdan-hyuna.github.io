@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="./img/logo.png" data-csp="header-favicon">
+	<title>Barbados</title>
+	<meta name="description" content="">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+
+	<!-- SVG -->
+
+	<svg style="display: none;">
+		<defs>
+			<symbol id="calendar">
+				<polygon points="10.553,21.354 11.275,24.635 14.858,22.918 14.912,22.918 14.912,37.827 19.195,37.827 19.195,19.034 
+					15.523,19.034 		" />
+				<path d="M33.013,26.854c-1.326-0.953-3.146-1.356-4.938-1.356c-0.463,0-0.811,0.007-1.215,0.064l0.404-2.881h7.312v-3.646H24.202
+					l-1.24,9.86c0.781-0.116,1.501-0.168,2.541-0.168c3.756,0,5.286,1.188,5.286,3.123c0,1.993-1.937,2.86-3.755,2.86
+					c-1.704,0-3.408-0.52-4.245-0.923l-0.781,3.293c1.041,0.548,2.948,1.068,5.229,1.068c5.055,0,8.06-3.091,8.06-6.585
+					C35.296,29.366,34.43,27.807,33.013,26.854z" />
+				<path d="M40.446,2.844v2.292c0,2.311-1.896,4.223-4.205,4.223h-0.215c-2.31,0-4.225-1.913-4.225-4.223V2.54h-4.6v2.596
+					c0,2.311-1.914,4.223-4.224,4.223h-0.212c-2.312,0-4.208-1.913-4.208-4.223V2.54H13.88v2.596c0,2.311-1.853,4.223-4.163,4.223
+					H9.503c-2.311,0-4.188-1.913-4.188-4.223V2.879C2.619,3.764,0.716,6.286,0.716,9.258v29.886c0,3.711,2.997,6.691,6.708,6.691
+					h30.997c3.711,0,6.699-2.98,6.699-6.691V9.258C45.124,6.248,43.142,3.697,40.446,2.844z M41.794,38.527
+					c0,2.148-1.727,3.898-3.875,3.898H7.93c-2.148,0-3.881-1.75-3.881-3.898V17.295c0-1.463,1.176-2.624,2.64-2.624h32.472
+					c1.464,0,2.634,1.161,2.634,2.624L41.794,38.527L41.794,38.527z" />
+				<path d="M9.506,7.296h0.213c0.664,0,1.254-0.28,1.655-0.747c0.331-0.384,0.525-0.867,0.525-1.414l0,0V2.164l0,0
+					c0-0.6-0.235-1.144-0.626-1.54c-0.004-0.003-0.004-0.008-0.007-0.011c-0.003-0.003-0.004,0.012-0.006,0.009
+					c-0.397-0.393-0.94-0.62-1.542-0.62H9.505c-0.603,0-1.147,0.227-1.544,0.62C7.96,0.625,7.958,0.619,7.955,0.621
+					C7.951,0.625,7.942,0.624,7.939,0.626C7.547,1.023,7.3,1.562,7.3,2.163l0,0v2.973l0,0c0,0.546,0.206,1.03,0.537,1.414
+					C8.239,7.018,8.841,7.296,9.506,7.296z" />
+				<path d="M21.515,6.947c0.004,0.002,0.015,0.005,0.018,0.007c0.006,0.004,0.018-0.008,0.023-0.004
+					c0.347,0.229,0.764,0.347,1.211,0.347h0.001h0.212l0,0c0.376,0,0.729-0.078,1.037-0.245c0.004-0.001,0.006,0.006,0.01,0.004
+					c0.006-0.004-0.002-0.004,0.006-0.009c0.672-0.375,1.111-1.088,1.111-1.912V2.163c0-0.713-0.326-1.347-0.854-1.748
+					c-0.005-0.003-0.001-0.007-0.005-0.01l0.004,0.017c-0.365-0.274-0.815-0.419-1.308-0.419h-0.213c-0.567,0-1.083,0.199-1.472,0.552
+					c-0.001,0-0.002-0.007-0.002-0.007c-0.005,0.004-0.024,0.004-0.028,0.008c-0.435,0.401-0.723,0.97-0.723,1.608v2.974
+					C20.542,5.888,20.938,6.552,21.515,6.947z" />
+				<path
+					d="M36.028,7.296h0.213c0.666,0,1.273-0.28,1.678-0.747c0.331-0.384,0.547-0.867,0.547-1.414l0,0V2.164l0,0
+					c0-0.829-0.477-1.55-1.154-1.924c-0.005-0.002-0.015-0.004-0.018-0.006c-0.055-0.029-0.113-0.055-0.169-0.08
+					c-0.011-0.004-0.021-0.008-0.028-0.012c-0.014-0.005-0.027-0.01-0.041-0.016c-0.021-0.008-0.04-0.016-0.061-0.023
+					c-0.012-0.004-0.021-0.007-0.032-0.011c-0.022-0.008-0.047,0-0.069-0.007c-0.205-0.064-0.426-0.083-0.652-0.083h-0.213
+					c-0.113,0-0.209-0.007-0.318,0.009c-1.055,0.161-1.846,1.055-1.846,2.152v2.974C33.864,6.347,34.817,7.296,36.028,7.296z" />
+			</symbol>
+		</defs>
+	</svg>
+
+	<!-- End SVG -->
+	<header id="barbados" class="header">
+		<div class="row">
+			<div class="column p-fixed">
+				<div class="btn-hamburger-wrap">
+					<div class="btn-hamburger">
+						<span class="btn-hamburger__icon"></span>
+					</div>
+				</div>
+				<nav class="header-menu">
+					<ul class="header-menu__items-left">
+						<li class="header-menu__item">
+							<a href="#barbados" class="header-menu__link smoothScroll">Welcome to Barbados</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#live" class="header-menu__link smoothScroll">Where you live</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#banks" class="header-menu__link smoothScroll">Banks & ATM</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#brekfast" class="header-menu__link smoothScroll">Hungry?</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#" class="header-menu__link-gray">Breakfast</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#" class="header-menu__link-gray">Lunch</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#" class="header-menu__link-gray">Dinner</a>
+						</li>
+					</ul>
+					<ul class="header-menu__items">
+						<li class="header-menu__item">
+							<a href="#stores" class="header-menu__link smoothScroll">Grocery Stores</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="" class="header-menu__link-gray">Basket of Goods</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#bridgetown" class="header-menu__link smoothScroll">Bridgetown</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#sports" class="header-menu__link smoothScroll">Sports & Leisure</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#transport" class="header-menu__link smoothScroll">Transportation</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="" class="header-menu__link-gray">Taxi</a>
+						</li>
+						<li class="header-menu__item">
+							<a href="#night-life" class="header-menu__link smoothScroll">Night Life</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column medium-12 large-6 content-margin">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">Welcome to Barbados</h1>
+					<p class="section-content__article">Welcome to this beautiful island known as the ‘Gem of the Caribbean’. A
+						paradise
+						where it’s known for its people, sun, sand and sea. A paradise you can now call home; welcome to Barbados.
+					</p>
+					<p class="section-content__article">We are ecstatic that you have chosen to be apart of our Hyuna family, an
+						opportunity you will not regret taking. Barbados is 166 square miles populating approximately 286,388
+						people.
+						This
+						small island is filled with adventures and activities our Hyuna family will be happy to experience with you.
+						Our company has created this Expat Guide just for you to show you the Ins and Outs within your area. </p>
+				</div>
+			</div>
+		</div>
+		<div class="section-img section-img-sizing-1 section-img-right"
+			style="background-image: url(./img/section-img.jpg)"></div>
+
+		<!-- emergency-contact -->
+		<div class="emergency">
+			<ul class="emergency__list">
+				<h3 class="emergency__title">Emergency Contact Numbers</h3>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Police Hotline</span>
+					<span class="emergency__number">211</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">QEH Ambulance</span>
+					<span class="emergency__number">511</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Fire Service</span>
+					<span class="emergency__number">311</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Diagnostic Clinic</span>
+					<span class="emergency__number">426-5051</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact-gray">(Company Doctor - Anne-Marie Irvine)</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">FMH Emergency</span>
+					<span class="emergency__number">228-6120</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Sandy Crest</span>
+					<span class="emergency__number">419-4911</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Bayview Hospital</span>
+					<span class="emergency__number">436-5446</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">The Sparman Clinic</span>
+					<span class="emergency__number">624-3278</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Island Care Ambulance</span>
+					<span class="emergency__number">537-9425</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Island wide Ambulance</span>
+					<span class="emergency__number">271-3218</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Medic Response Ambulance</span>
+					<span class="emergency__number">228-8633</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Department of Emergence Management</span>
+					<span class="emergency__number">438-7575</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact-gray">(DEMS)</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Defense Force</span>
+					<span class="emergency__number">536-2500</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Defense Force Emergency only</span>
+					<span class="emergency__number">536-2083</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Julie Turney</span>
+					<span class="emergency__number">230-5275</span>
+				</li>
+				<li class="emergency__list-item">
+					<span class="emergency__contact">Miracle-Ann King</span>
+					<span class="emergency__number">825-6531</span>
+				</li>
+			</ul>
+			<a class="closebtn">×</a>
+		</div>
+		<div class="emergency-icon"></div>
+	</header>
+
+	<!-- section-live -->
+	<section id="live" class="live">
+		<div class="row large-collapse align-right">
+			<div class="column  large-5 align-center-medium-5 small-12">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">1. Where you live</h1>
+					<p class="section-content__article">Welcome to your new home, Rockley Mews. This new 11 unit gated community
+						is
+						within easy walking distance to many south coast amenities. Hyuna International Ltd Expats occupies six (6)
+						of
+						these town houses, therefore even though you’re the new kid on the block you will find your neighbors having
+						familiar faces. On hot days you’ll have to option to stay inside with your ice like air conditioning or
+						relaxing
+						in the pool. Not to mention you’ll be able to have dinner under the stars from your patio or balcony. These
+						are
+						just few features your new home will have.</p>
+					<div class="flex-wrap">
+						<ul class="servis-list">
+							<li class="servis-list__item">2 bedrooms</li>
+							<li class="servis-list__item">2 ½ bathrooms</li>
+							<li class="servis-list__item">Dishwasher</li>
+							<li class="servis-list__item">Granite Counter Tops</li>
+						</ul>
+						<ul>
+							<li class="servis-list__item">Kitchen</li>
+							<li class="servis-list__item">Microwave</li>
+							<li class="servis-list__item">Powder Room</li>
+							<li class="servis-list__item">Washer & Dryer</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section-img section-img-sizing-1 section-img-left"
+			style="background-image: url(./img/section-img2.jpg)"></div>
+	</section>
+
+	<!-- section-banks -->
+	<section id="banks" class="banks section-padding">
+		<div class="row text-center">
+			<div class="column large-6">
+				<h2 class="banks__title bg-title">banks & atm</h2>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/banks-img1.jpg" alt="Scotiabank">
+				<h3 class="section-item__title">Scotiabank</h3>
+				<p class="section-item__description">Located 2 minutes via foot from Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Services:</li>
+					<li class="servis-list__item">2 bedrooms</li>
+					<li class="servis-list__item">2 ½ bathrooms</li>
+					<li class="servis-list__item">Dishwasher</li>
+					<li class="servis-list__item">Granite Counter Tops</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/banks-img2.jpg" alt="(RBC)">
+				<h3 class="section-item__title">Royal Bank of Canada (RBC)</h3>
+				<p class="section-item__description">located 7 minutes via foot from Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Services:</li>
+					<li class="servis-list__item">Personal Banking</li>
+					<li class="servis-list__item">ATM</li>
+					<li class="servis-list__item">Deposits</li>
+					<li class="servis-list__item">Wire transfers</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/banks-img3.jpg" alt="Western Union">
+				<h3 class="section-item__title">Western Union</h3>
+				<ul class="servis-list">
+					<li class="servis-list__title">Services:</li>
+					<li class="servis-list__item">send</li>
+					<li class="servis-list__item">receive money</li>
+					<li class="servis-list__item">purchase a money order</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/banks-img4.jpg" alt="First Caribbean Bank (ATM)">
+				<h3 class="section-item__title">First Caribbean Bank (ATM)</h3>
+				<ul class="servis-list">
+					<li class="servis-list__title">Services:</li>
+					<li class="servis-list__item">Deposits</li>
+					<li class="servis-list__item">Debits</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-brekfast -->
+	<section id="brekfast" class="brekfast">
+		<div class="row text-center">
+			<div class="column large-6 align-center-small-5 align-center-medium-6">
+				<span class="hungry">Hungry?</span>
+				<h2 class="brekfast__title bg-title">brekfast</h2>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/brekfast-img1.jpg" alt="Italian Coffee House">
+				<h3 class="section-item__title">Italian Coffee House</h3>
+				<p class="section-item__description">The Italia Coffee House is in Quayside Centre Rockley 5 minutes away via
+					foot
+					from Rockley Mews. It is a chain of locally owned coffee shops, established in Barbados in 1998, as Barbados’
+					first authentic gourmet coffee shop.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon Sun- 6:45am- 11:00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/brekfast-img2.jpg" alt="Munchies Sandwich & Slushy Bar">
+				<h3 class="section-item__title">Munchies Sandwich & Slushy Bar</h3>
+				<p class="section-item__description">Munchies Sandwich Bar is where comfort food meets convenience. It’s located
+					in
+					Quayside Centre Rockley 5 minutes away from Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon- Sun-7:30am- 10:00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/brekfast-img3.jpg" alt="Artsplash Café">
+				<h3 class="section-item__title">Artsplash Café</h3>
+				<p class="section-item__description">ArtSplash Cafe is located 15minutes away via foot from Rockley Mews and 5
+					minutes away via foot from the office. It has a healthy selection of fresh breakfasts, lunches, snacks, juices
+					and
+					smoothies</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon to Fri, 7:00am – 3:00pm.</li>
+					<li class="servis-list__time">Sat, 8.00am – 3.00pm. | Sun, 8.00am – 2.00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/brekfast-img4.jpg" alt="Subway">
+				<h3 class="section-item__title">Subway</h3>
+				<p class="section-item__description">Subway is located upstairs in Lanterns Mall, approximately 10 minutes away
+					from Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon- Sun- 7:00am- 10:00pm</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-lunch -->
+	<section id="lunch" class="lunch section-padding">
+		<div class="row">
+			<div class="column large-6 align-center-small-5 align-center-medium-6">
+				<h2 class="lunch__title bg-title text-center">lunch</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/lunch-img1.jpg" alt="Kaboodles">
+				<h3 class="section-item__title">Kaboodles</h3>
+				<p class="section-item__description">Kaboodles is located 2 minutes away via foot from Hyuna’s Corporate office.
+					It
+					offers your typical fast food lunch meals.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon Fri- 8:00am- 5:00pm Sat: 8:00-2:00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/lunch-img2.jpg" alt="Chefette">
+				<h3 class="section-item__title">Chefette</h3>
+				<p class="section-item__description">Barbados most popular fast food restaurant. It’s located 5 minutes away via
+					foot from Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon- Fri 10:00am- 11:00pm l Sat-Sun- 10:00am</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/lunch-img3.jpg" alt="Lanterns Mall">
+				<h3 class="section-item__title">Lanterns Mall</h3>
+				<p class="section-item__description">Located 10 minutes away via foot from Rockley Mews. A wide range of
+					restaurants are located within to mall to cater to your cravings.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon-Sat- 9:00am- 9:00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/lunch-img4.jpg" alt="The Coffee Bean">
+				<h3 class="section-item__title">The Coffee Bean</h3>
+				<p class="section-item__description">Located 20 minutes away via foot from Rockley Mews and 4mins away via bus.
+					Coffee Bean offers a wide variety of hot & cold coffees, and delicious food.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon-Fri: 7:00am- 4:30pm l Sat-8:00am- 3:00pm</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-dinner -->
+	<section id="dinner" class="dinner">
+		<div class="row large-collapse align-right">
+			<div class="column large-5 medium-12 small-12">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">dinner</h1>
+					<p class="section-content__article">On the south coast of Barbados, you can wine & dine at the most affordable
+						prices. This section provides some of the restaurants you can enjoy sea-front view and enjoy Caribbean
+						flavors.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section-img section-img-sizing-1 section-img-left"
+			style="background-image: url(./img/section-img3.jpg)"></div>
+	</section>
+	<div class="section-padding">
+		<div class="row">
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/dinner-img1.jpg" alt="Champers">
+				<h3 class="section-item__title">Champers</h3>
+				<p class="section-item__description">Champers is a popular restaurant and wine bar located 7 mins away via foot
+					from Rockley Mews. This restaurant sits on the water’s edge with the sea crashing just steps from your table.
+					It’s known for its superb service, fresh local seafood and affordable prices.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Open daily for lunch and dinner</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/dinner-img2.jpg" alt="Shakers Bar & Grill">
+				<h3 class="section-item__title">Shakers Bar & Grill</h3>
+				<p class="section-item__description">Shakers is what you call an “upscale rumshop.” This small but cozy
+					restaurant is known for its bbq spareribs, friendly staff and affordable prices. It where licking your fingers
+					is expected.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Tues- Sat: 6:00pm- 10:00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/dinner-img3.jpg" alt="Bubbas Sports Bar & Restaurant">
+				<h3 class="section-item__title">Bubbas Sports Bar & Restaurant </h3>
+				<p class="section-item__description">Bubba's Sports Bar & Restaurant offers an unbeatable combination of cuisine
+					and atmosphere. Located 2 minutes away via foot from Rockley mews, Bubbas is where you can enjoy all the
+					sports action live on their TV’s while enjoying a meal.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon- Thurs: 11:30AM - 11:00PM</li>
+					<li class="servis-list__time">Fri-Sat: 11:00AM - 12:00AM</li>
+					<li class="servis-list__time">Sun: 8:00AM - 11:00PM</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/dinner-img4.jpg" alt="Naru">
+				<h3 class="section-item__title">Naru</h3>
+				<p class="section-item__description">Naru Restaurant & Lounge is an exciting blend of Asian & Caribbean cuisine.
+					Located 5 mins away via foot from Rockley Mews, this beach front restaurant is the best place on the south
+					coast to eat Sushi and experience true service.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon-Sat: 6:00pm- 9:30pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/dinner-img5.jpg" alt="Tapas">
+				<h3 class="section-item__title">Tapas</h3>
+				<p class="section-item__description">Tapas is a seafront restaurant on the boardwalk located in Hastings, 10
+					minutes away via foot from Rockley Mews. Here you can enjoy a fine dining atmosphere while gazing at the sea
+					crashing on the rocks.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon- Sun: 11:30am- 10:30pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/dinner-img6.jpg" alt="Blakey’s Bar & Restaurant">
+				<h3 class="section-item__title">Blakey’s Bar & Restaurant</h3>
+				<p class="section-item__description">Blakey’s is known as ‘the place to unwind’ to Hyuna’s staff. This casual
+					restaurant and bar is located on the boardwalk in Hastings 5 minutes away from ‘The office’ and 10 mins away
+					via foot from Rockley. They offer both indoor and outdoor seating, which overlooks the sea.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Lunch- Thurs- Sat: 11:30am</li>
+					<li class="servis-list__time">Dinner- Tue-Sun: 6:00pm-10:30pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/dinner-img7.jpg" alt="The Coffee Bean">
+				<h3 class="section-item__title">Kaboodles</h3>
+				<p class="section-item__description">Buzo is an Italian restaurant best known for its pizza and affordable
+					prices. It’s at the corner entrance to the Courtyard by Marriot complex; 15 minutes away via foot and 5
+					minutes away via van from Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon-Sat: 11:00am – 10:00pm</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- section-stores -->
+	<section id="stores" class="stores">
+		<div class="row">
+			<div class="column small-12 medium-12 large-5">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">Grocery Stores</h1>
+					<p class="section-content__article">We all know a home cooked meal is the best cure when feeling home sick.In
+						Barbados or grocery store is where you will find it all.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section-img section-img-sizing-1 section-img-right"
+			style="background-image: url(./img/section-img4.jpg)"></div>
+	</section>
+	<section class="basket">
+		<div class="row align-right">
+			<div class="column small-12 medium-12 large-5">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">Basket of Goods</h1>
+					<p class="section-content__article">According to Numbeo, cost of living in Barbados is 10.31% higher than in
+						United States. However, rent & transportation is 54.70% lower than in United States (average data for all
+						cities). Below, is the general cost of living in Barbados.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="price-list section-padding">
+		<div class="row">
+
+			<!-- list-restaurants -->
+			<div class="column small-12 medium-6 large-5">
+				<h3 class="price-list__title">Restaurants</h3>
+				<ul class="price-list__list">
+					<li class="price-list__item">
+						<span class="price-list__name">Opening hours</span>
+						<span class="price-list__price">25.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Meal for 2 People, Mid-range <br> Restaurant, Three-course</span>
+						<span class="price-list__price">130.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">McMeal at McDonalds (or Equivalent Combo Meal)</span>
+						<span class="price-list__price">15.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Domestic Beer (0.5 liter draught)</span>
+						<span class="price-list__price">5.50 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Imported Beer (0.3 liter bottle)</span>
+						<span class="price-list__price">7.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Cappuccino (regular)</span>
+						<span class="price-list__price">7.44 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Coke/Pepsi (0.33 liter bottle)</span>
+						<span class="price-list__price">2.81 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Water (0.33 liter bottle)</span>
+						<span class="price-list__price">2.58 Bds$</span>
+					</li>
+				</ul>
+
+				<!-- list-Markets -->
+				<h3 class="price-list__title">Markets</h3>
+				<ul class="price-list__list">
+					<li class="price-list__item">
+						<span class="price-list__name">Milk (regular),(1 liter)</span>
+						<span class="price-list__price">7.11 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Loaf of Fresh White Bread (500g)</span>
+						<span class="price-list__price">4.42 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Rice (white), (1kg)</span>
+						<span class="price-list__price">5.65 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Eggs (regular) (12)</span>
+						<span class="price-list__price">8.25 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Local Cheese (1kg)</span>
+						<span class="price-list__price">11.86 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Chicken Breasts (Boneless, Skinless), (1kg)</span>
+						<span class="price-list__price">21.23 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Beef Round (1kg) (or Equivalent Back Leg Red Meat)</span>
+						<span class="price-list__price">23.77 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Apples (1kg)</span>
+						<span class="price-list__price">8.10 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Banana (1kg)</span>
+						<span class="price-list__price">4.72 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Oranges (1kg)</span>
+						<span class="price-list__price">8.94 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Tomato (1kg)</span>
+						<span class="price-list__price">7.64 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Potato (1kg)</span>
+						<span class="price-list__price">3.76 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Onion (1kg)</span>
+						<span class="price-list__price">4.08 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Lettuce (1 head)</span>
+						<span class="price-list__price">4.30 Bds$</span>
+					</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-5  large-offset-2 padding">
+				<ul class="price-list__list">
+					<li class="price-list__item">
+						<span class="price-list__name">Water (1.5 liter bottle)</span>
+						<span class="price-list__price">5.20 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Bottle of Wine (Mid-Range)</span>
+						<span class="price-list__price">30.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Domestic Beer (0.5 liter bottle)</span>
+						<span class="price-list__price">3.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Imported Beer (0.33 liter bottle)</span>
+						<span class="price-list__price">5.50 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Cigarettes 20 Pack (Marlboro)</span>
+						<span class="price-list__price">12.50 Bds$</span>
+					</li>
+				</ul>
+
+				<!-- list-transportation -->
+				<h3 class="price-list__title">Markets</h3>
+				<ul class="price-list__list">
+					<li class="price-list__item">
+						<span class="price-list__name">One-way Ticket (Local Transport)</span>
+						<span class="price-list__price">2.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Monthly Pass (Regular Price)</span>
+						<span class="price-list__price">60.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Taxi Start (Normal Tariff)</span>
+						<span class="price-list__price">15.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Taxi 1km (Normal Tariff)</span>
+						<span class="price-list__price">2.50 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Taxi 1hour Waiting (Normal Tariff)</span>
+						<span class="price-list__price">50.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Gasoline (1 liter)</span>
+						<span class="price-list__price">3.35 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car)</span>
+						<span class="price-list__price">60,000.00 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Toyota Corolla 1.6l 97kW Comfort (Or Equivalent New Car)</span>
+						<span class="price-list__price">76,000.00 Bds$</span>
+					</li>
+				</ul>
+
+				<!-- list-utilities -->
+				<h3 class="price-list__title">Utilities (Monthly)</h3>
+				<ul class="price-list__list">
+					<li class="price-list__item">
+						<span class="price-list__name">Basic (Electricity, Heating, Cooling,<br> Water, Garbage) for 85m2
+							Apartment</span>
+						<span class="price-list__price">227.81 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">1 min. of Prepaid Mobile Tariff Local (No Discounts or Plans)</span>
+						<span class="price-list__price">0.69 Bds$</span>
+					</li>
+					<li class="price-list__item">
+						<span class="price-list__name">Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)</span>
+						<span class="price-list__price">04.23 Bds$</span>
+					</li>
+				</ul>
+			</div>
+			<div class="column large-6">
+				<span class="updated">
+					<svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+						viewBox="0 0 45.836 45.836">
+						<use xlink:href="#calendar">
+					</svg>
+					Last updated: August 2018</span>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-market -->
+	<section id="market" class="market">
+		<div class="row">
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/market-img1.jpg" alt="Ninety-Nine 99 Convenience Store">
+				<h3 class="section-item__title">Ninety-Nine 99 Convenience Store</h3>
+				<p class="section-item__description">Located in Quayside Centre Rockley, 5 minutes away via foot from Rockley
+					Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon- Sun 8:00am – 10pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/market-img2.jpg" alt="Imart Lanterns">
+				<h3 class="section-item__title">Imart Lanterns</h3>
+				<p class="section-item__description">Located in Lanterns Mall Hastings Christ Church, 10 minutes away via foot
+					form Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon- Sun 7:00am- 10:00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/market-img3.jpg" alt="Massy Supermarket Worthing">
+				<h3 class="section-item__title">Massy Supermarket Worthing</h3>
+				<p class="section-item__description">Located 20 minutes away via foot from Rockley Mews, 5 mins away via bus.
+					Massy Supermarket carries a wide variety of all your household needs. They offer their shoppers a scheduled
+					shuttle service.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon-Thurs: 8:00am- 8:00pm I Fri-Sat- 8:00am- 9:00 pm I Sun: 9:00am- 7:00pm</li>
+				</ul>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/market-img4.jpg" alt="Popular Discounts Supermarket">
+				<h3 class="section-item__title">Popular Discounts Supermarket</h3>
+				<p class="section-item__description">One of Barbados most affordable supermarkets. It caters to all your
+					consumer needs. It’s located in Kendal Hill Christ Church 20 mins away via taxi from Rockley Mews.</p>
+				<ul class="servis-list">
+					<li class="servis-list__title">Opening hours</li>
+					<li class="servis-list__time">Mon-Thurs: 8:00am -9:00pm I Fri- Sat: 8:00am- 10:00pm Sun: 9:00am-3:00pm</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-bridgetown -->
+	<section id="bridgetown" class="bridgetown section-margin">
+		<div class="row align-right">
+			<div class="column large-5">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">bridgetown</h1>
+					<p class="section-content__article">Bridgetown is the capital of our little island. It’s also the home to the
+						Bridgetown Port, which is one of the most advanced ports in the Caribbean. As you roam through the streets
+						and outskirts you will see many renown building and old structures which have be classed as World Heritage
+						Sites, e.g. Barbados Parliament Building. This small city offers duty-free shopping and upscale boutiques on
+						Broad Street.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section-img section-img-sizing-1 section-img-left"
+			style="background-image: url(./img/section-img6.jpg)"></div>
+	</section>
+
+	<!-- section-sports -->
+	<section id="sports" class="sports">
+		<div class="row">
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/sports-img1.jpg" alt="Barbados Yacht Club">
+				<h3 class="section-item__title">Barbados Yacht Club</h3>
+				<p class="section-item__description">The Yacht club is located on Carlisle Bay, about 10 minutes away via
+					van/bus from Rockley Mews. The Club offers sailing, dining and recreational facilities including bar and
+					restaurant, boatshed and tennis courts.</p>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/sports-img2.jpg" alt="Hilton Gym Membership">
+				<h3 class="section-item__title">Hilton Gym Membership</h3>
+				<p class="section-item__description">An elite gym for your fitness and recreation convenience. Hilton Barbados
+					Resort Gym is located at Needham’s Point, St. Michael approximately 8 mins away from Rockley mews via van.
+					This gym has many benefits which may peak your interest e.g. daily access to the pool, access to tennis court,
+					etc. with a monthly membership of $160.00 monthly + 250 starters fee $1750 BBD annually.</p>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/sports-img3.jpg" alt="Yoga">
+				<h3 class="section-item__title">Yoga</h3>
+				<p class="section-item__description">With the sound of the waves and the smell of the sea salt yoga is the
+					perfect way to destress after a long day.</p>
+			</div>
+			<div class="column small-12 medium-6 large-4 section-item">
+				<img class="section-item__img" src="./img/sports-img4.jpg" alt="Boatyard Barbados">
+				<h3 class="section-item__title">Boatyard Barbados</h3>
+				<p class="section-item__description">The boat yard beach club is known to be the best beach, bar & night club on
+					the south coast. offers unbeatable beach facilities enhanced only by the natural white sandy beach and calm
+					azure water. Upon entering The Boatyard, a beach package worth $50 BBD is offered which ensures you a day
+					filled with fun and pleasure in paradise.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-transport -->
+	<section id="transport" class="transport section-padding">
+		<div class="row align-right">
+			<div class="column large-5">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">Transportation</h1>
+					<p class="section-content__article">It's quite easy to get around Barbados by public or private transport as
+						we have a well-established transportation system. Here are the 5 things you need to know when taking a bus
+						in ‘Bim.’</p>
+				</div>
+			</div>
+		</div>
+		<div class="section-img section-img-sizing-1 section-img-left"
+			style="background-image: url(./img/section-img7.jpg)"></div>
+	</section>
+	<section class="transport-services">
+		<div class="row section-padding">
+			<div class="column large-4 medium-6 small-12 section-item">
+				<h3 class="section-item__title red">Types of Buses</h3>
+				<p class="section-item__description">We have three types of public transports: Transport Board
+					buses (blue), Mini buses (yellow) and ZR / Maxi Taxis (white with a maroon stripe).  No matter where you stay,
+					you will find one type or all three on your bus route operation from as early as 5:00am until 11. Before or
+					after those hours, you will need to take a cab or a taxi.</p>
+			</div>
+			<div class="column large-4 medium-6 small-12 section-item">
+				<h3 class="section-item__title orange">Bus Fare</h3>
+				<p class="section-item__description">The standard bus fare in Barbados is BDS$2. This is the equivalent of US$1
+					but use local currency; no foreign coins are accepted on the Transport Board buses.</p>
+			</div>
+			<div class="column large-4 medium-6 small-12 section-item">
+				<h3 class="section-item__title green">Getting on the Bus</h3>
+				<p class="section-item__description">By Law, buses are only supposed to stop at the designated bus stops. To
+					stop an approaching bus, simply put out your arm at about shoulder height for about 5 seconds.  This signals
+					to the driver that you wish to catch his/her bus.  All buses will have a sign board with their destination at
+					the top or in the bottom of the windscreen.  If you are unsure if this is the correct bus, simply ask the
+					driver and he will confirm or inform you which one to look out for.</p>
+			</div>
+			<div class="column large-4 medium-6 small-12 section-item">
+				<h3 class="section-item__title blue">What Bus Route to take?</h3>
+				<p class="section-item__description">1. On the Hastings route you have many means of transportation at your
+					convenience. If you’re to heading to Bridgetown, you can take a ZR #11, 3D or a transport board with sign
+					saying ‘Bridgetown.’ If you are going further always ask a local.</p>
+			</div>
+			<div class="column large-4 medium-6 small-12 section-item">
+				<h3 class="section-item__title pink">Embrace the bus life</h3>
+				<p class="section-item__description">Barbadians (aka Bajans) are some of the friendliest people you will ever
+					meet.  Don’t be afraid to engage in friendly conversation, it is a great way to pass the time and they are
+					bound to share with you their views on the ins and outs of Barbados. The ZR / Maxi Taxis (white with a maroon
+					stripe) is an experience not to be missed. They pack people in like sardines, and word of advice always take a
+					window seat sit closest to the window. However, if at any time you ever feel the ride is getting too
+					wild...Press that bell and hop on out! Safety is always paramount.</p>
+			</div>
+			<div class="column large-4 medium-6 small-12 section-item">
+				<h3 class="section-item__title yellow">Taxi</h3>
+				<p class="section-item__description">4. If you’re looking for a hassle-free journey a taxi is your best option.
+					Unlike many places in the world taking a taxi in Barbados is very safe. Typical taxi far starts at $20
+					operation 24hr a day. There’s no set rate for this service, but always ask of the charge before you enter the
+					taxi.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- section-night-life -->
+	<section id="night-life" class="night-life">
+		<div class="row">
+			<div class="column small-12 medium-12 large-5">
+				<div class="section-content">
+					<h1 class="section-content__title section-title">night life</h1>
+				</div>
+			</div>
+		</div>
+		<div class="section-img section-img-sizing-1 section-img-right"
+			style="background-image: url(./img/section-img8.jpg)"></div>
+	</section>
+	<section class="night-life__clubs">
+		<div class="row section-padding">
+			<div class="column large-4 medium-6 small-12 section-item">
+				<img class="section-item__img" src="./img/night-life-img1.jpg" alt="Oistins">
+				<h3 class="section-item__title red">Oistins</h3>
+				<p class="section-item__description">The perfect place to experience Barbados in it’s true culture. Every Friday
+					thousands of locals & tourists gather on the south coast of Barbados to enjoy your average comfort food and
+					the company of each other. There’s a variety of food which caters to your average ‘meat mouth’ and vegetarian
+					starting at $12USD. This vibrant place offers entertainment from both amateur and professional artist. Once
+					you’re here you’ll hear Oistins is a must do in Barbados!</p>
+			</div>
+			<div class="column large-4 medium-6 small-12 section-item">
+				<img class="section-item__img" src="./img/night-life-img2.jpg" alt="St. Lawrence Gap">
+				<h3 class="section-item__title orange">St. Lawrence Gap</h3>
+				<p class="section-item__description">As the sun goes down and the street light turns on St. Lawrence Gap, also
+					known as “The Gap” by locals, is a vibrant area on the South coast of Barbados 5 mins via foot from Rockley
+					Mews. The Gap is filled with Restaurants, Night Clubs & Hotels where you’ll see the young & old partying side
+					by side and taking Tequila shots. This Gap is at its best on Friday- Saturday nights.</p>
+			</div>
+			<div class="column large-4 medium-6 small-12 section-item">
+				<img class="section-item__img" src="./img/night-life-img3.jpg" alt="Harbour Lights">
+				<h3 class="section-item__title green">Harbour Lights</h3>
+				<p class="section-item__description">Harbour lights is an establishment which offers several beach &
+					entertainment packages starting from $20 BBD. In addition, it is one of Barbados most popular night clubs
+					where you can enjoy an open air, beach front setting, soaking up the exclusive nightclub atmosphere. After
+					spending the evening at the local Oistins Fish Fry, you can end your night with a party you will not forget.
+					Harbour Lights night club is open every Wednesday & Friday night.
+					For more information, you can go to their website<br>
+					<a class="night-life__link"
+						href="https://harbourlightsbarbados.rezdy.com/">https://harbourlightsbarbados.rezdy.com/</a>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/scripts.min.js"></script>
+
+
+</body>
+
+</html>

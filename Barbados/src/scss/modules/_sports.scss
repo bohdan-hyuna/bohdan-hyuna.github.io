@@ -1,0 +1,10 @@
+.sports {
+  background: url(../img/sports-bg.png) no-repeat;
+  background-position-x: right;
+  background-position-y: 67%;
+  margin-bottom: 4rem;
+  @include breakpoint(medium down) {
+    background: none;
+    margin-bottom: 0;
+  }
+}

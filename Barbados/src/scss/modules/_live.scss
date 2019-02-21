@@ -1,0 +1,22 @@
+.live {
+ position: relative;
+  
+  .section-content {
+    padding: 4.8rem 0 2rem 0;
+    @include breakpoint(medium down) {
+      padding: 2rem 0 2rem 0;
+    }
+    &__article {
+      margin-bottom: 65px;
+      @include breakpoint(medium down) {
+        margin-bottom: 35px;
+      }
+    }
+  }
+  .servis-list {
+    margin-right: 120px;
+    @include breakpoint(medium down) {
+      margin-right: 20px;
+    }
+  }
+}

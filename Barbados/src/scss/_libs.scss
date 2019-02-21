@@ -1,0 +1,15 @@
+@import "../../node_modules/foundation-sites/scss/foundation";
+//@import "../../node_modules/foundation-sites/scss/settings/settings";
+@import "../../node_modules/foundation-sites/scss/components/_visibility.scss";
+@import "../libs/animate_custom";
+
+@include foundation-global-styles;
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+@include foundation-visibility-classes;
+@include foundation-forms;
+@include foundation-close-button;
+@include foundation-label;
+@include foundation-media-object;
+
+

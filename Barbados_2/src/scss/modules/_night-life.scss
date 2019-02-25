@@ -1,0 +1,31 @@
+.night-life {
+ position: relative;
+ 
+  @include breakpoint(medium down) {
+    background: none;
+  }
+
+  .section-content {
+    background: url(../img/taxi.png) no-repeat;
+    background-position-x: left;
+    padding: 16.6rem 0 16.6rem 0;
+    
+    @include breakpoint(medium down) {
+      background: none;
+    }
+    
+    @include breakpoint(medium down) {
+      padding: 2rem 0 2rem 0;
+    }
+
+    &__title {
+      background: url(../img/title-night-life.png) 1px no-repeat;
+      padding-left: 7px;
+      margin: 0;
+      @include breakpoint(medium down) {
+        background-position: center;
+      }
+    }
+  }
+
+}

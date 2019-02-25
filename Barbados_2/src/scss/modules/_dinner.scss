@@ -1,0 +1,19 @@
+.dinner {
+  position: relative;
+  
+  .section-content {
+    padding: 12.9rem 0 12.9rem 0;
+
+    @include breakpoint(medium down) {
+      padding: 2rem 0 2rem 0;
+    }
+
+    &__title {
+      background: url(../img/title-dinner.png) 1px no-repeat;
+      padding-left: 7px;
+      @include breakpoint(medium down) {
+        background-position: center;
+      }
+    }
+  }
+}

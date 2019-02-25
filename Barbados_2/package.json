@@ -1,0 +1,32 @@
+{
+  "name": "optimazion",
+  "version": "1.0.0",
+  "description": "Consolidation and compression",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bogdan Hets",
+  "license": "ISC",
+  "dependencies": {
+    "animate.sass": "^1.0.1",
+    "foundation-sites": "^6.5.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-terser": "^1.1.7",
+    "gulp-watch": "^5.0.1",
+    "rimraf": "^2.6.2"
+  }
+}
